@@ -1,0 +1,7 @@
+# pip install -r requirements.txt (skriver ner paketen som jag har installerat- om jag klonar projektet, kan jag bara skriva det )
+
+pandas
+matplotlib
+sqlalchemy
+pyodbc
+jupyter
