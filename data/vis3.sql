@@ -37,7 +37,7 @@ ORDER BY
     YearMonth ASC;
 
 
--- Hade kunnat snygga upp med att få TotalSales litte mer läsbar
+-- Hade kunnat snygga upp med att få TotalSales lite mer läsbar
 
 SELECT 
     FORMAT(OrderDate, 'yyyy-MM') AS YearMonth,

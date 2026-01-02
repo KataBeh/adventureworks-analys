@@ -4,7 +4,7 @@ SELECT * FROM Sales.Customer
 SELECT * FROM Sales.Store 
 
 
-
+-- Kollar upp hur många Store och Individual kunder finns:
 SELECT
   SUM(CASE WHEN StoreID IS NOT NULL THEN 1 ELSE 0 END) AS StoreCustomers,
   SUM(CASE WHEN PersonID IS NOT NULL THEN 1 ELSE 0 END) AS IndividualCustomers
